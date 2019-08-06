@@ -717,7 +717,10 @@ nav {
 .contacts {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
 
 .contact__form {
   display: -webkit-box;
@@ -730,7 +733,7 @@ nav {
   width: 40%; }
 
 .contact__infos {
-  margin-left: 200px; }
+  width: 40%; }
 
 .contact__info {
   background-color: blue; }

@@ -421,6 +421,7 @@ nav {
 
 .contacts {
 	display: flex;
+    justify-content: space-between;
 }
 
 .contact {
@@ -430,7 +431,7 @@ nav {
 	    width: 40%;
 	}
 	&__infos {
-		margin-left: 200px;
+		width: 40%;
 	}
 	&__info {
 		background-color: blue;
